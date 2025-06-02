@@ -148,9 +148,9 @@ ngrok http 3000
 
 **8- Copied your .free address & open your chrome browser**
 
--Sign-Up with email
--Enter OTP
--Done & check your key has been activated
+- Sign up using email
+- Enter OTP
+- Done & check your key has been activated
 
 
 # Please Backup Your Swarm.Pem file 🖥
