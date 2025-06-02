@@ -100,23 +100,23 @@ ngrok http 3000
 brew install python
 ```
 
-**2. Install Yarn & Node.Js
+**2. Install Yarn & Node.Js**
 ```bash
 brew install node && corepack enable && npm install -g yarn
 ```
 
-**6. Activate Python env**
+**3. Activate Python env**
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 ```
-**7. Clone Swarn**
+**4. Clone Swarn**
 ```bash
 git clone https://github.com/gensyn-ai/rl-swarm.git
 cd rl-swarm
 ```
 
-**8. Run with CPU using this CMD**
+**5. Run with CPU using this CMD**
 ```bash
 CPU_ONLY=true ./run_rl_swarm.sh
 ```
@@ -128,7 +128,7 @@ CPU_ONLY=true ./run_rl_swarm.sh
 
 # Open next ubntu window and download ngork with key 
 
-**9- Install Ngork**
+**6- Install Ngork**
 ```bash
 wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz && tar -xvzf ngrok-v3-stable-linux-amd64.tgz && sudo mv ngrok /usr/local/bin/
 ```
@@ -141,12 +141,12 @@ wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz && tar
 - Go back paste and run the command
 — next run this **
 
-**10- Connect With Ngork**
+**7- Connect With Ngork**
 ```bash
 ngrok http 3000
 ```
 
-**11- Copied your .free address & open your chrome browser**
+**8- Copied your .free address & open your chrome browser**
 
 -Sign-Up with email
 -Enter OTP
