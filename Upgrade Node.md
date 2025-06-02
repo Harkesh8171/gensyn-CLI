@@ -153,7 +153,7 @@ ngrok http 3000
 - Done & check your key has been activated
 
 
-# Please Backup Your Swarm.Pem file 🖥
+# Please Backup Your Swarm.Pem file in your PC 🖥
 
 Using this cmd👇
 ```bash
