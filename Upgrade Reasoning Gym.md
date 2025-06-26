@@ -1,4 +1,4 @@
-![image]([https://github.com/Harkesh8171/Image/blob/main/IMG_8122.jpg](https://github.com/Harkesh8171/Image/blob/7df740f7bcdab14bbe6ae84581600c4a54af05b8/IMG_8122.jpg))
+![image](https://github.com/Harkesh8171/Image/blob/7df740f7bcdab14bbe6ae84581600c4a54af05b8/IMG_8122.jpg)
 
 
 # Run RL Swarm (Testnet) Node
