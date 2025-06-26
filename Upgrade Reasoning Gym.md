@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8ad5a694-e287-4d45-ba57-203f58a19714)
+![image](https://github.com/Harkesh8171/Image/blob/main/IMG_8122.jpg))
 
 
 # Run RL Swarm (Testnet) Node
@@ -44,8 +44,11 @@ sudo apt update && sudo apt install -y python3 python3-venv python3-pip curl wge
 curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
-
-**6. Activate Python env**
+**6. Delete Old Python venv**
+```bash
+rm -rf .venv
+```
+Activate New Python venv
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
@@ -106,7 +109,11 @@ brew install python
 brew install node && corepack enable && npm install -g yarn
 ```
 
-**3. Activate Python env**
+**3. Delete Old Python venv**
+```bash
+rm -rf .venv
+```
+Activate New Python venv
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
@@ -161,4 +168,3 @@ Using this cmd👇
 [ -f backup.sh ] && rm backup.sh; curl -sSL -O https://raw.githubusercontent.com/zunxbt/gensyn-testnet/main/backup.sh && chmod +x backup.sh && ./backup.sh
 ```
 
-Thanks for @ZUNXBT for This 🙏
