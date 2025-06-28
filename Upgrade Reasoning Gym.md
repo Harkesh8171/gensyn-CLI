@@ -31,7 +31,7 @@ cp rl-swarm/swarm.pem swarm.backup
 
 **3. Delete Old rl-swarm folder**
 ```bash 
-rm-rf rl-swarm
+rm -rf rl-swarm
 ```
 
 **4. Install Pyton & Yarn**
@@ -95,7 +95,9 @@ ngrok http 3000
 - Enter OTP
 - Done & check your key has been activated
 
-
+**12. Paste swarm.pem file to rl-swarm directory**
+```bash
+cp swarm.backup/swarm.pem rl-swarm
 
 # Mac Users
 
