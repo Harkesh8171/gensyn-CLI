@@ -98,6 +98,7 @@ ngrok http 3000
 **12. Paste swarm.pem file to rl-swarm directory**
 ```bash
 cp swarm.backup/swarm.pem rl-swarm
+```
 
 # Mac Users
 
