@@ -164,6 +164,36 @@ ngrok http 3000
 - Done & check your key has been activated
 
 
+# New Error Coming On Gensyn Node
+
+![image](https://github.com/Harkesh8171/Image/blob/89439ac1303fc7baae697e7b6a0921e004b2b53a/gensyn%20error.jpg)
+
+**1 Activate New Python venv**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+**2- Enter rl-swarm**
+
+```bash
+cd rl-swarm
+```
+
+**3- Reset and update files**
+
+```bash
+git switch main
+git reset --hard
+git clean -fd
+git pull origin main
+```
+**4- Run Node**
+
+```bash
+./run_rl_swarm.sh
+```
+
 # Please Backup Your Swarm.Pem file in your PC 🖥
 
 Using this cmd👇
