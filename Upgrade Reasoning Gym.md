@@ -95,10 +95,42 @@ ngrok http 3000
 - Enter OTP
 - Done & check your key has been activated
 
-**12. Paste swarm.pem file to rl-swarm directory**
+**12. Open new ubuntu tab Paste swarm.pem file to rl-swarm directory**
 ```bash
 cp swarm.backup/swarm.pem rl-swarm
 ```
+
+**13. Activate Python**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+**14. Clone Swarn**
+```bash
+git clone https://github.com/gensyn-ai/rl-swarm.git
+cd rl-swarm
+```
+
+**14. Run with CPU using this CMD**
+```bash
+CPU_ONLY=true ./run_rl_swarm.sh
+```
+
+**Run With GPU CMD**
+```bash
+./run_rl_swarm.sh
+```
+
+**15. Run with AI Prdication Press y**
+
+```bash
+Y
+```
+
+![image](https://github.com/Harkesh8171/Image/blob/89fb3d99b1cf47314c118e8380b1f75287a66535/Screenshot%202025-08-28%20234952.png)
+
 
 # Mac Users
 
@@ -107,12 +139,31 @@ cp swarm.backup/swarm.pem rl-swarm
 brew install python
 ```
 
-**2. Install Yarn & Node.Js**
+**1. Create Directory**
 ```bash
-brew install node && corepack enable && npm install -g yarn
+mkdir swarm.backup
+```
+**2. Copy swarm.pem file to another directory**
+```bash
+cp rl-swarm/swarm.pem swarm.backup
 ```
 
-**3. Delete Old Python venv**
+**3. Delete Old rl-swarm folder**
+```bash 
+rm -rf rl-swarm
+```
+
+**4. Install Pyton & Yarn**
+```bash
+sudo apt update && sudo apt install -y python3 python3-venv python3-pip curl wget screen git lsof && curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - && echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list && sudo apt update && sudo apt install -y yarn
+```
+
+**5. Intall Node.JS**
+```bash
+curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
+sudo apt install -y nodejs
+```
+**6. Delete Old Python venv**
 ```bash
 rm -rf .venv
 ```
@@ -121,13 +172,13 @@ Activate New Python venv
 python3 -m venv .venv
 source .venv/bin/activate
 ```
-**4. Clone Swarn**
+**7. Clone Swarn**
 ```bash
 git clone https://github.com/gensyn-ai/rl-swarm.git
 cd rl-swarm
 ```
 
-**5. Run with CPU using this CMD**
+**8. Run with CPU using this CMD**
 ```bash
 CPU_ONLY=true ./run_rl_swarm.sh
 ```
@@ -139,7 +190,7 @@ CPU_ONLY=true ./run_rl_swarm.sh
 
 # Open next ubntu window and download ngork with key 
 
-**6- Install Ngork**
+**9- Install Ngork**
 ```bash
 wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz && tar -xvzf ngrok-v3-stable-linux-amd64.tgz && sudo mv ngrok /usr/local/bin/
 ```
@@ -152,16 +203,53 @@ wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz && tar
 - Go back paste and run the command
 — next run this **
 
-**7- Connect With Ngork**
+**10- Connect With Ngork**
 ```bash
 ngrok http 3000
 ```
 
-**8- Copied your .free address & open your chrome browser**
+**11- Copied your .free address & open your chrome browser**
 
 - Sign up using email
 - Enter OTP
 - Done & check your key has been activated
+
+**12. Open new ubuntu tab Paste swarm.pem file to rl-swarm directory**
+```bash
+cp swarm.backup/swarm.pem rl-swarm
+```
+
+**13. Activate Python**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+**14. Clone Swarn**
+```bash
+git clone https://github.com/gensyn-ai/rl-swarm.git
+cd rl-swarm
+```
+
+**15. Run with CPU using this CMD**
+```bash
+CPU_ONLY=true ./run_rl_swarm.sh
+```
+
+**Run With GPU CMD**
+```bash
+./run_rl_swarm.sh
+```
+
+**16. Run with AI Prdication Press y**
+
+```bash
+Y
+```
+
+![image](https://github.com/Harkesh8171/Image/blob/89fb3d99b1cf47314c118e8380b1f75287a66535/Screenshot%202025-08-28%20234952.png)
+
 
 
 # New Error Coming On Gensyn Node
